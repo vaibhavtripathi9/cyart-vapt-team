@@ -6,7 +6,7 @@ Working:
 It sends packets to a target system and analyzes responses to determine open ports, services, and operating system details.
 
 Command Used:
-nmap -sV <target_ip>
+nmap -sV 192.168.154.129
 
 Explanation:
 - -sV: Detects service versions running on open ports.
