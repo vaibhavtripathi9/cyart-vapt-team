@@ -1,0 +1,21 @@
+Nmap (Network Mapper)
+
+Nmap is a powerful open-source tool used for network discovery and security auditing.
+
+Working:
+It sends packets to a target system and analyzes responses to determine open ports, services, and operating system details.
+
+Command Used:
+nmap -sV <target_ip>
+
+Explanation:
+- -sV: Detects service versions running on open ports.
+
+Findings:
+The scan identified multiple open ports such as:
+- Port 21 (FTP)
+- Port 22 (SSH)
+- Port 80 (HTTP)
+
+Security Risk:
+Open ports increase attack surface and may allow unauthorized access if services are vulnerable or misconfigured.
