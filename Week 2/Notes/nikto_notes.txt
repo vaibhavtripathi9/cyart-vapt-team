@@ -1,0 +1,20 @@
+Nikto Web Vulnerability Scanner
+
+Nikto is an open-source web server scanner used to detect vulnerabilities in web applications.
+
+Working:
+It scans web servers for outdated software, dangerous files, and misconfigurations.
+
+Command Used:
+nikto -h http://<target_ip>
+
+Findings:
+- Outdated Apache server
+- Exposed phpinfo file
+- Directory indexing enabled
+
+Security Risk:
+These vulnerabilities can expose sensitive information and allow attackers to exploit the system.
+
+Example:
+An exposed phpinfo file can reveal server configuration details which can be used for further attacks.
