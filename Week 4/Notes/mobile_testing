@@ -1,0 +1,19 @@
+Mobile Application Penetration Testing
+
+Mobile Vulnerabilities
+
+Mobile apps are vulnerable to insecure storage and weak authentication.
+
+Static Analysis
+
+Using tools like MobSF to analyze APK files without execution.
+
+Dynamic Analysis
+
+Using tools like Frida to test runtime behavior.
+
+Security Practices
+
+- Data encryption
+- Secure authentication
+- Code obfuscation
